@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+    <header>
+        
+        <nav>
+          
+            <div class="left">
+            <ul id="sidemenu">
+                <li><a href= "#home" class="home"> Home </a></li>
+                <li><a href= "#about"> About Me </a></li>
+              <li><a href="#thirdsection">Skills</a></li>
+              <li><a href="#fourthsection">My Projects</a></li>
+               <li><a href="#fifth-section">Contact Me</a></li>
+               <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                       
+                            
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstSection">
+           <div class="leftSection">
+    <h1 class="purple">Deoyani Shinde</h1>
+
+    <h3>Bachelor of Technology  <br>In <br>Information Technology Engineering</h3>
+
+    <p>
+        Dr. Babasaheb Ambedkar Technological University <br>
+      <span>  2023–2026</span>
+    </p>
+
+    
+
+    <div class="social-download">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/deoyani-shinde
+"            target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/deoyani21" target="_blank" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:deoyanishinde0@gmail.com" target="_blank" class="icon"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+
+        <button class="download">Download CV</button>
+    </div>
+</div>
+
+                
+ 
+                  
+
+                
+            </div>
+            <div class="rightSection">
+                <img src="assets/mefull.jpg" alt="My Photo" class="profile">
+                
+            </div>
+        </section>
+        
+        <div class="secondSection" id="about">
+        <h1> About Me</h1> 
+        
+        <p>
+         
+         I’m Deoyani Shinde, a passionate Computer Science/IT student with a strong interest in problem-solving, data structures & algorithms, and web development. Over the past few months, I’ve worked on projects ranging from full-stack web applications to competitive programming challenges (like CodeVita), which have helped me sharpen both my technical skills and logical thinking. My current focus is on React and backend development.
+         Apart from coding, I enjoy exploring new technologies and staying updated with the latest trends in the tech world. I’m constantly looking for smarter ways to solve real-world problems and improve user experiences. When I’m not programming, I love learning new concepts, collaborating on projects, and enhancing my skills to become a well-rounded developer.
+        </p>
+      </div>
+      <div id="thirdsection">
+          <div class="container"></div>
+          <h1>  My Skills </h1>
+          <div class="skills-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+             <h2>Frontend</h2>
+             <ul>
+               <li>Text formatting tags & CSS text formatting</li>
+               <li>Media tags & Hyperlinks</li>
+               <li>Tables, Forms & Input tags</li>
+               <li>CSS Decorations (Background Properties, Animations & Display Properties)</li>
+               <li>JavaScript: Operators, Functions, Objects, Strings & Arrays</li>
+               <li>BOM: Events, Popups & Timing Functions</li>
+               <li>DOM Manipulation</li>
+    </ul>
+             
+             </div>
+             <div>
+             
+             <i class="fa-solid fa-code"></i>
+             <h2>Backend</h2>
+             <ul>
+              <li>Node.js: server setup, routing, handling requests and responses</li>
+              <li>Express.js: building RESTful APIs, middleware, server-side logic</li>
+              <li>Authentication: understanding JWT, sessions, and password handling</li>
+              <li>File handling: reading/writing files, uploading data</li>
+              <li>Error handling: try/catch, logging, debugging</li>
+             </ul>
+             
+             </div>
+             <div>
+              <i class="fa-solid fa-code"></i>
+             <h2>Database</h2>
+             <li>MongoDB: understanding collections, documents, CRUD operations</li>
+             <li>MySQL: creating databases, tables, and running queries</li>
+             <li>Database Design: relationships, primary & foreign keys, normalization basics</li>
+             <li>Querying & Filtering: retrieving and manipulating data</li>
+             <li>Connecting with Backend: integrating database with Node.js/Express apps</li>
+             
+             </div>
+          </div>
+      </div>
+      <div id="fourthsection">
+         <h1>My Projects</h1>
+         <div class="project-list">
+         <div class="project" id="project-portfolio">
+         <h2>Personal Portfolio</h2>
+         <img src="assets/projectPort.jpg" alt="Portfolio project preview" class="project-img" />
+        <p>A responsive personal website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+        </div>
+
+        <div class="project" id="project-prescripto">
+       <h2>StayHealthy</h2>
+        <img src="assets/stayhealthy.jpg" alt="StayHealthy" class="project-img" />
+         <p>A MERN stack web application for managing prescriptions digitally with authentication and CRUD operations. I will update it soon  :)</p>
+         </div>
+          </div>
+            </div>
+        <div id="fifth-section">
+          <h2>Contact Me</h2>
+          <form name="submit-to-google-sheet">
+            <input type="text" name="FullName" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <input type="tel" name="Mobile" placeholder="Your Mobile Number" pattern="[0-9]{10}" required>
+            <input type="text" name="Subject" placeholder="Subject" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="download submit">Send Message</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+                
+
+              
+
+            
+      
+     
+
+      
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+     <script>
+     let sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+    sidemenu.classList.add("active");  // Slide in the menu
+    }
+    function closemenu() {
+    sidemenu.classList.remove("active"); // Slide out the menu
+    }
+   </script>
+
+      </script>
+      <script src="javaScr.js"></script>
+      <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzv3AZTOuu74vTCSfhQysBoe9zG3RExBwA72INbC0h4vaVQYPDpKm8OKVyPPWGQ5j8O/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent Sucessfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
